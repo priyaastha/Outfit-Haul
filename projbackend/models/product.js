@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-//to populate the category field in the product model
 const { ObjectId } = mongoose.Schema;
 
 const productSchema = new mongoose.Schema(
